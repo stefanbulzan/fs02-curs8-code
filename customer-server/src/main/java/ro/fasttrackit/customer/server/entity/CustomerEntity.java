@@ -7,6 +7,7 @@ import javax.validation.constraints.Min;
 import java.util.List;
 
 import static javax.persistence.CascadeType.ALL;
+import static javax.persistence.CascadeType.PERSIST;
 
 @Entity
 @Table(name = "customers")
